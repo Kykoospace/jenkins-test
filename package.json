@@ -9,7 +9,7 @@
     "lint": "ng lint",
     "e2e": "ng e2e",
     "preversion":  "npm test",
-    "vsersion": "npm run build && git add --all && git push && git push --tags",
+    "version": "npm run build && git add --all && git push && git push --tags",
     "postversion": "rm -Rf dist/"
   },
   "private": true,
